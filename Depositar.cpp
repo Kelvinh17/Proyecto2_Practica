@@ -11,7 +11,7 @@ struct Transaccion {
 };
 
 void realizarDeposito(const Transaccion& transaccion) {
-    // Lógica para realizar el depósito
+
     std::cout << "Se ha realizado un depósito de " << transaccion.monto << " desde " << transaccion.origen
               << " a " << transaccion.destino << std::endl;
 
