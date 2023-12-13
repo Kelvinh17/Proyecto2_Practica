@@ -1,5 +1,8 @@
 #include <iostream>
 #include <fstream>
+#include "Todo.h"
+
+using namespace std;
 
 struct Cliente {
     std::string ci;
