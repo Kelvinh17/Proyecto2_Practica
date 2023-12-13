@@ -1,5 +1,8 @@
 #include <iostream>
 #include <fstream>
+#include "Todo.h"
+
+using namespace std;
 
 struct Transaccion {
     std::string origen;
@@ -8,8 +11,8 @@ struct Transaccion {
 };
 
 void realizarDeposito(const Transaccion& transaccion) {
-    // Lógica para realizar el depósito
-    std::cout << "Se ha realizado un depósito de " << transaccion.monto << " desde " << transaccion.origen
+    // LÃ³gica para realizar el depÃ³sito
+    std::cout << "Se ha realizado un depÃ³sito de " << transaccion.monto << " desde " << transaccion.origen
               << " a " << transaccion.destino << std::endl;
 
     std::ofstream archivo("Clients.csv", std::ios_base::app);
